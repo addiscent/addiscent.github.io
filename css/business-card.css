@@ -1,0 +1,198 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html {
+  font-size: 62.5%; // 1rem ~= 10px nominal
+}
+
+.full {
+  background: #000 url(../assets/background.jpg) no-repeat center center fixed;
+/*  background: #999;  // sometimes used for debugging
+*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+	background: black;
+	margin: 1.0rem;
+	font-family: "Varela Round", "Times New Roman";
+	color: white;
+}
+
+/* "non-brand"-ed nav-bar text */
+.navbar-non-brand {
+	font-size: 1.45rem;
+}
+
+.navbar-fixed-top {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-fixed-bottom {
+  background: none;
+}
+
+#cardpane {
+  background: none;
+	display: none;
+}
+
+#services {
+	text-decoration: none;
+	display: none;
+}
+
+a {
+  color: #aaffcc;
+}
+
+a:hover {
+  color: #ffffdd;
+}
+
+.div_footer {
+  text-align: right;
+}
+
+.p_footer {
+  background: none;
+  margin: 0.0rem;
+}
+
+.p_footer a {
+  background: black;
+  color: white;
+  opacity: 0.3;
+}
+
+/*  these margins, padding, font-size, etc are for small mobile -
+    nom 320px by 480px, either portrait or landscape mode
+ */
+#cardpane {
+  margin-top: 8.0rem;
+  margin-left: 0.5rem;
+}
+
+h1 {
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem;
+	padding: 0.8rem 1.0rem;
+	line-height: 3.4rem;
+  border-radius: 0.6rem;
+	font-size: 3.0rem;
+	display: inline-block;
+}
+
+h2 {
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem;
+	padding: 0.7rem 0.9rem;
+	line-height: 3.0rem;
+  border-radius: 0.6rem;
+  font-size: 2.5rem;
+	display: inline-block;
+}
+
+p, a {
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem;
+	padding: 0.5rem 0.8rem;
+	line-height: 2.16rem;
+  border-radius: 0.6rem;
+//  font-size: 1.8rem;
+  font-size: 1.44rem;
+	display: inline-block;
+}
+
+.p_footer a {
+  margin: 0.0rem;
+	padding: 0.3rem 0.4rem;
+	line-height: 0.72rem;
+  border-radius: 0.2rem;
+  font-size: 0.6rem;
+}
+
+/*  margins, padding, font-size, etc, for medium mobile class,
+    (iphone6/s3), landscape mode*/
+@media screen and (min-width: 640px) {
+  #cardpane {
+    margin-top: 6.0rem;
+    margin-left: 1.4rem;
+  }
+
+  h1 {
+	  padding: 1.1rem 1.3rem;
+	  line-height: 4.76rem;
+    border-radius: 0.84rem;
+	  font-size: 4.2rem;
+  }
+
+  h2 {
+	  padding: 0.9rem 1.0rem;
+	  line-height: 3.9rem;
+    border-radius: 0.6rem;
+    font-size: 3.25rem;
+  }
+
+  p, a {
+	  padding: 0.7rem 1.12rem;
+	  line-height: 3.0rem;
+    border-radius: 0.84rem;
+//    font-size: 2.5rem;
+    font-size: 2.0rem;
+  }
+
+  .p_footer a {
+    margin: 0.0rem;
+	  padding: 0.45rem 0.6rem;
+	  line-height: 0.11rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+  }
+}
+
+/*  margins, padding, font-size, etc, for tablet class
+    landscape mode and larger */
+@media screen and (min-width: 768px) {
+  #cardpane {
+    margin-top: 10.0rem;
+    margin-left: 2.1rem;
+  }
+
+  h1 {
+	  padding: 1.6rem 2.0rem;
+	  line-height: 6.8rem;
+    border-radius: 1.2rem;
+	  font-size: 6.0rem;
+  }
+
+  h2 {
+	  padding: 1.4rem 1.8rem;
+	  line-height: 6.0rem;
+    border-radius: 1.2rem;
+    font-size: 5.0rem;
+  }
+
+  p, a {
+	  padding: 1.0rem 1.6rem;
+	  line-height: 4.32rem;
+    border-radius: 1.2rem;
+//    font-size: 3.6rem;
+    font-size: 2.88rem;
+  }
+
+  .p_footer a {
+    margin: 0.0rem;
+	  padding: 0.6rem 0.8rem;
+	  line-height: 1.44rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+  }
+}
